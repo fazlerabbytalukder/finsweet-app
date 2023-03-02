@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.website-heding{
+  @apply text-h1 font-bold leading-[110%] text-blackish text-center lg:text-start
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.about-website{
+  @apply text-h5 font-normal leading-[28px] text-blackish my-[32px] text-center lg:text-start
 }
+
+.input-style{
+  @apply bg-offWhite py-[12px] px-[16px] placeholder:text-grayesh placeholder:text-h5 w-full
+}
+
+.subscribe-button{
+  @apply px-[32px] py-[10px] bg-bluesh text-[18px] text-offWhite
+}
+
