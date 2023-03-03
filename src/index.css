@@ -8,6 +8,22 @@
   @apply text-h1 font-bold leading-[110%] text-blackish text-center lg:text-start
 }
 
+.header-part{
+  @apply  flex flex-col lg:flex-row justify-between items-start lg:items-end mb-[64px]
+}
+
+.section-title{
+  @apply text-h2 font-bold leading-[120%] text-blackish mb-0 lg:mb-[16px]
+}
+
+.section-des{
+  @apply text-h5 font-normal leading-[150%] text-blackish w-full lg:w-2/3 my-[16px] lg:my-0
+}
+
+.img-size{
+  @apply w-[620px] lg:w-[520px]
+}
+
 .about-website{
   @apply text-h5 font-normal leading-[28px] text-blackish my-[32px] text-center lg:text-start
 }
@@ -18,5 +34,36 @@
 
 .subscribe-button{
   @apply px-[32px] py-[10px] bg-bluesh text-[18px] text-offWhite
+}
+
+/* recent episode design */
+.see-all-btn{
+  @apply py-[12px] px-[32px] bg-bluesh text-h5 text-white leading-[24px] font-medium
+}
+
+.card-title{
+  @apply text-h3 font-semibold text-blackish leading-[30px] mt-[32px]
+}
+
+.card-text{
+  @apply text-h5 font-normal text-blackish leading-[24px] my-[16px]
+}
+
+.card-btn{
+  @apply text-h5 font-semibold text-bluesh leading-[24px]
+}
+
+/* news section design */
+.read-now-btn{
+  @apply text-h5 font-semibold text-bluesh leading-[30px]
+}
+
+/* footer design */
+.footer-header{
+  @apply text-h4 font-bold leading-[150%] mb-6
+}
+
+.footer-tag{
+  @apply hover:underline text-h5 font-normal leading-[24px]
 }
 

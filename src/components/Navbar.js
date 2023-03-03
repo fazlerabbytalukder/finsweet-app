@@ -6,9 +6,9 @@ const Navbar = () => {
     return (
         <header className='px-5 lg:px-0'>
             <div className="container mx-auto flex justify-between items-center py-[26px]">
-                <div className="logo">
+                <Link to='/' className="logo">
                     <img src={logo} alt="logo" />
-                </div>
+                </Link>
                 <ul>
                     <li>
                         <Link to='/about'><button className='font-inter h5 font-semibold'>About</button></Link>

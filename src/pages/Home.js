@@ -1,12 +1,16 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
-import Navbar from '../components/Navbar';
+import PartnerCompany from '../components/PartnerCompany';
+import News from './News';
+import RecentEpisode from './RecentEpisode';
 
 const Home = () => {
     return (
         <div>
-            <Navbar />
-            <HeroSection/>
+            <HeroSection />
+            <PartnerCompany />
+            <RecentEpisode />
+            <News/>
         </div>
     );
 };

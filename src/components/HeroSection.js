@@ -10,10 +10,10 @@ const HeroSection = () => {
                         <h1 className='website-heding'>Become The Hero Of Your Own Story</h1>
                         <p className='about-website'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
                     </div>
-                    <div className="search-box flex items-center">
+                    <form className="search-box flex items-center">
                         <input className='input-style' type="text" placeholder='Enter Your Email id' />
                         <button className='subscribe-button'>Subscribe</button>
-                    </div>
+                    </form>
                 </div>
                 <div className='hidden lg:block'>
                     <img src={soundImg} alt="audio track" />
