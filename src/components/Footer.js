@@ -15,6 +15,7 @@ const url = 'https://fazlerabbytalukder.netlify.app/';
 const Footer = () => {
     return (
         <>
+            {/* footer top */}
             <div className='container mx-auto bg-bluesh font-inter relative translate-y-[35%]'>
                 <div className='flex justify-center items-center pt-[72px]'>
                     <h3 className='text-h2 font-bold leading-[120%] text-white'>Our Sponsors </h3>
@@ -37,6 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            {/* main footer  */}
             <footer className='bg-blackish text-white font-inter pt-[192px]'>
                 <div className="container mx-auto">
                     <div className="pb-8">
